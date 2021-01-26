@@ -10,6 +10,10 @@ import static java.util.Arrays.stream;
 
 @Getter
 public class Rover {
+    public ViewPoint getViewPoint() {
+        return viewPoint;
+    }
+
     private ViewPoint viewPoint;
 
     public Rover(ViewPoint viewPoint){

@@ -8,6 +8,14 @@ import java.util.Objects;
 
 @Getter
 public class SimpleViewPoint implements ViewPoint {
+    public Heading getHeading() {
+        return heading;
+    }
+
+    public Position getPosition() {
+        return position;
+    }
+
     private Heading heading;
     private Position position;
     private static final Map<Position, Obstacle> obstacles = new HashMap<>();
