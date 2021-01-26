@@ -1,6 +1,6 @@
 package refactor;
 
-import refactor.Rover.Position;
+import refactor.SimpleViewPoint.Position;
 
 public class Obstacle {
     private final Position position;
